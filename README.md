@@ -4,23 +4,21 @@
 [![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
 
-Write here all the useful information about your plugin.
-
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+Plugin to Dynamically change language of the cat via WebSocket
 
 ## Usage
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
-
-4. Start developing!
+1. Install the plugin (Via the plugin tab of the admin or by uploading the zip file)
+2. Activate the plugin
+3. Send a ws message like so: 
+   ```json
+   {
+    "text": <message>,
+    "lang": "Japanese"
+   }
+   ```
 
 > **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
-
+> 
+> Tested only on GPT-4.
+> The language must be written in english becuase this plugin depends to the default cat prompt
