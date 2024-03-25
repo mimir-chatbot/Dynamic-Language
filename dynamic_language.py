@@ -3,8 +3,8 @@ from cat.mad_hatter.decorators import hook
 
 @hook(priority=2)
 def before_cat_reads_message(user_message_json: dict, cat) -> dict:
-    if "lang" in user_message_json:
-        cat.working_memory["lang"] = user_message_json["lang"]
+    if "prompt_settings" in user_message_json:
+        cat.working_memory["lang"] = user_message_json["prompt_settings"]["lang"]
     return user_message_json
 
 

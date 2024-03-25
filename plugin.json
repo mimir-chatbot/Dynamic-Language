@@ -1,10 +1,10 @@
 {
     "name": "Dynamic Language",
-    "version": "0.0.1",
-    "description": "Description of dynamic_language.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/dynamic_language",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/dynamic_language.png"
+    "version": "0.0.2",
+    "description": "Enables dynamic language switching in your cat.",
+    "author_name": "valentimarco, SMarT",
+    "author_url": "https://www.linkedin.com/in/valentimarco21, https://www.linkedin.com/company/smartstrategymarketingtechnology/",
+    "plugin_url": "https://github.com/mimir-chatbot/Dynamic-Language",
+    "tags": "cat, language, dynamic, switch",
+    "thumb": ""
 }
