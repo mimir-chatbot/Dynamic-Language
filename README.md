@@ -14,7 +14,9 @@ Plugin to Dynamically change language of the cat via WebSocket
    ```json
    {
     "text": <message>,
-    "lang": "Japanese"
+    "prompt_settings": {
+       "lang": "Japanese"
+    }
    }
    ```
 
